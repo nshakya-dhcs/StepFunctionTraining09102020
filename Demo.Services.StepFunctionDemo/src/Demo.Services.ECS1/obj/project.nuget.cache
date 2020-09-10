@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "r1WmhX6KaztXIUbdk4W5HV+AFVDksE7hcLSJk1+EeEc0rOw7kF5qGVnf3GqNNeq/FDmmbSN6C6ZXMdpBIt8X3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nshakya\\Desktop\\StepFunctionTraining09102020\\Demo.Services.StepFunctionDemo\\src\\Demo.Services.ECS1\\Demo.Services.ECS1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nshakya\\.nuget\\packages\\awssdk.core\\3.5.1.6\\awssdk.core.3.5.1.6.nupkg.sha512",
+    "C:\\Users\\nshakya\\.nuget\\packages\\awssdk.s3\\3.5.0.8\\awssdk.s3.3.5.0.8.nupkg.sha512",
+    "C:\\Users\\nshakya\\.nuget\\packages\\awssdk.stepfunctions\\3.5.1\\awssdk.stepfunctions.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+version: "2"
+services:
+    app:
+        build:
+        # Build an image from the Dockerfile in the current directory
+            context: .
+        command: 2020 08
+        volumes: 
+            - ./proxycert.pem:/etc/ssl/certs/ca-certificates.crt
+   
+        

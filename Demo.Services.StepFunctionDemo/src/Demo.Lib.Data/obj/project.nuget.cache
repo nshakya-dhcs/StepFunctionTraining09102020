@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ev+czcgfm0rcw690zLVR2J6Wx0hAfqPH8RYZmvN4RKe+sgNznIDyZbRxpNXnYdBB/ekgqX3LV8TCInOltUjtsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nshakya\\Desktop\\StepFunctionTraining09102020\\Demo.Services.StepFunctionDemo\\src\\Demo.Lib.Data\\Demo.Lib.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nshakya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nshakya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

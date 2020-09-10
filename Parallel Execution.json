@@ -1,0 +1,65 @@
+{
+    "Comment": "Odd Even State Machine",
+    "StartAt": "Process1",
+    "States": {
+        "Process1": {
+            "Comment": "This performs process1",
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:342600918501:function:StepFunctionDemoStack-Process1Function64F04A06-1OJZCXZHCUTTT:$LATEST",
+            "Next": "ParallelState"
+        },
+        "ParallelState": {
+            "Type": "Parallel",
+            "Branches": [
+                {
+                    "StartAt": "Process11",
+                    "States": {
+                        "Process11": {
+                            "Comment": "This performs process11",
+                            "Type": "Task",
+                            "Resource": "arn:aws:lambda:us-west-2:342600918501:function:StepFunctionDemoStack-Process11Function70180133-19H6J5SJEORC9:$LATEST",
+                             "OutputPath":"$",
+                             "InputPath":"$",
+                             "ResultPath":"$.Resolved",
+                            "Next": "Process12"
+                        },
+                           "Process12": {
+                            "Comment": "This performs process12",
+                            "Type": "Task",
+                            "Resource": "arn:aws:lambda:us-west-2:342600918501:function:StepFunctionDemoStack-Process12FunctionD2B0C67B-1NIM6PLIN9N0J:$LATEST",
+
+                            "End": true
+                        }
+                    }
+                },
+                {
+                    "StartAt": "Process2",
+                    "States": {
+
+                      "Process2": {
+                            "Comment": "This performs process2",
+                            "Type": "Task",
+                            "Resource": "arn:aws:lambda:us-west-2:342600918501:function:StepFunctionDemoStack-Process2Function273202F1-8N4P90B3BMII:$LATEST",
+                             "ResultPath":"$.ResultProcess2",
+                            "End": true
+                        }
+                    }
+                }
+            ],
+          "ResultPath":"$.ParallelResult",
+          "Next": "PutIntoDynamo"
+        },
+        "PutIntoDynamo": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::dynamodb:putItem",
+            "Parameters": {
+                "TableName": "StepFunctionDemoStack-StepFunctionDemoTableFB67808F-1GB0YKHNIK46R",
+                "Item": {
+                    "Id": {"S.$": "$.ParallelResult[0].JobId"},
+                    "Value": {"N.$": "States.Format('{}',$.ParallelResult[0].Data)"}
+                }
+            },
+            "End": true
+        }
+    }
+}

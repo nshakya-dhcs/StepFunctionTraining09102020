@@ -1,0 +1,13 @@
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.exe
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.deps.json
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.runtimeconfig.json
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.runtimeconfig.dev.json
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.dll
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\bin\Debug\netcoreapp3.1\Demo.Services.ECS.pdb
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.csprojAssemblyReference.cache
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.csproj.CoreCompileInputs.cache
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.AssemblyInfoInputs.cache
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.AssemblyInfo.cs
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.dll
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.pdb
+C:\Users\nshakya\Desktop\StepFunctionTraining08272020\Demo.Services.StepFunctionDemo\src\Demo.Services.ECS\obj\Debug\netcoreapp3.1\Demo.Services.ECS.genruntimeconfig.cache

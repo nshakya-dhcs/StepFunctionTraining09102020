@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Demo.Services.ECS/1.0.0": {
+        "runtime": {
+          "Demo.Services.ECS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo.Services.ECS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

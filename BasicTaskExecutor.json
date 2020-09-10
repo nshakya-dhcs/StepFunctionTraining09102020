@@ -1,0 +1,42 @@
+{
+  "StartAt": "ProcessA",
+  "States": {
+    "ProcessA": {
+      "Next": "EcsTask1",
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:342600918501:function:StepFunctionDemoStack-ProcessAFunction70434C83-3PFYPTAXU5WE:$LATEST"
+    },
+    "EcsTask1": {
+      "End": true,
+      "InputPath": "$",
+      "Parameters": {
+        "Cluster": "arn:aws:ecs:us-west-2:342600918501:cluster/OHC-PACES",
+        "TaskDefinition": "arn:aws:ecs:us-west-2:342600918501:task-definition/StepFunctionDemoStackdemoECSTask1Definition53FE36D5:45",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": [
+              "subnet-09adc4ea4371869f2",
+              "subnet-0107c842a62184a48",
+              "subnet-0c2dba68510cd825f"
+            ],
+            "SecurityGroups": [
+              "sg-030dd6f422ae7d2ae"
+            ]
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "app",
+              "Command.$": "$.ECSPayload"
+            }
+          ]
+        },
+        "LaunchType": "FARGATE"
+      },
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask"
+    }
+  },
+  "TimeoutSeconds": 900
+}

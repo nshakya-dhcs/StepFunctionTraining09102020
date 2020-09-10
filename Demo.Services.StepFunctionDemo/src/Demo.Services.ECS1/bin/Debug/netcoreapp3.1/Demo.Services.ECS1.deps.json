@@ -1,0 +1,89 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Demo.Services.ECS1/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.5.0.8",
+          "AWSSDK.StepFunctions": "3.5.1",
+          "Demo.Lib.Data": "1.0.0"
+        },
+        "runtime": {
+          "Demo.Services.ECS1.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.5.1.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.6"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0.8": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.1.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.0.8"
+          }
+        }
+      },
+      "AWSSDK.StepFunctions/3.5.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.1.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "Demo.Lib.Data/1.0.0": {
+        "runtime": {
+          "Demo.Lib.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo.Services.ECS1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.5.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zrJgh4h0Ct/1ebm9KUFeDVfQuys8Hh9Yji4A7/0peRS1/O2wBM7AcZ5SBpdrBCbKkSdJLl5ERMKO7UrSUiHk/Q==",
+      "path": "awssdk.core/3.5.1.6",
+      "hashPath": "awssdk.core.3.5.1.6.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-64uRylFf3Pc7UCZxopW9n4PB+pRcrRjpsRcE+JO6EZFt3x+XStjku9gu4i0sM7i2Dbne8OL5WiGUmUyVtaWOLQ==",
+      "path": "awssdk.s3/3.5.0.8",
+      "hashPath": "awssdk.s3.3.5.0.8.nupkg.sha512"
+    },
+    "AWSSDK.StepFunctions/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dpc7qk7UCf3c4JgI70ukiBrvZsRp6jZxf3MnBO1G4yw/YPOMseNjlAqYA1Am5yv0LjSLa2z7NDqHuxxXXQToug==",
+      "path": "awssdk.stepfunctions/3.5.1",
+      "hashPath": "awssdk.stepfunctions.3.5.1.nupkg.sha512"
+    },
+    "Demo.Lib.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
